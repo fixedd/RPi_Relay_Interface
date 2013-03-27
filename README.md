@@ -13,6 +13,8 @@ This interface board will allow you to connect your Raspberry Pi (rev 2.0, at le
 | 8        | 2N3904 Transistors               | I used [these](http://www.mouser.com/Search/ProductDetail.aspx?R=2N3904TAvirtualkey51210000virtualkey512-2N3904TA). |
 | 1        | 2 inch x 2 inch single-sided PCB | I cut [this](http://www.amazon.com/gp/product/B000P7ALZC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000P7ALZC&linkCode=as2&tag=fixedd-20) down. |
 | 1        | 3 inch jumper wire               |       |
+| 1        | 26 pin header                    |       |
+| 1        | 10 pin header                    |       |
 
 ## Explanation
 
