@@ -29,6 +29,7 @@ The Sainsmart Relay Module has opto-isolation on the input pins. To maintain thi
 ### Files
 
 * ```eagle_files``` - Provided here are [Eagle PCB](http://www.cadsoftusa.com/eagle-pcb-design-software/) schematic and layout files.
+* ```gerber_files``` - @lazylester provided these [Gerber format](http://en.wikipedia.org/wiki/Gerber_format) files so it will be easy to have boards manufactured.
 * ```images``` - Images of my board and the files I printed to do the toner transfer.
 * ```test_scripts``` - Some python scripts to test the operation of the board.
 
