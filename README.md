@@ -40,3 +40,7 @@ The Sainsmart Relay Module has opto-isolation on the input pins. To maintain thi
 ## Thanks
 
 Thanks to the folks on the [Raspberry Pi BB](http://www.raspberrypi.org/phpBB3/viewtopic.php?t=19222), without their guidance it would have taken me longer to figure this out.
+
+## License
+
+There is no license other than to say that I release this to the public domain... do with it as you wish (see [the license file](./LICENSE.md)).
