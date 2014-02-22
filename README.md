@@ -55,7 +55,9 @@ The Relay Module I used has opto-isolation on the input pins. To maintain this i
 
 ## Thanks
 
-Thanks to the folks on the [Raspberry Pi BB](http://www.raspberrypi.org/phpBB3/viewtopic.php?t=19222), without their guidance it would have taken me longer to figure this out.
+* Thanks to the folks on the [Raspberry Pi BB](http://www.raspberrypi.org/phpBB3/viewtopic.php?t=19222), without their guidance it would have taken me longer to figure this out.
+* Thanks to @lazylester for the Gerber files for the 8-channel version.
+* Thanks to @fjung for the Eagle and Gerber files for the 4-channel version.
 
 ## License
 
