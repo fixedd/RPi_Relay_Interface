@@ -2,9 +2,10 @@
 
 ## Overview
 
-This interface board will allow you to connect your Raspberry Pi (rev 2.0, at least) to a [SainSmart 8-Channel 5V Relay Module](http://www.amazon.com/gp/product/B0057OC5WK/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0057OC5WK&linkCode=as2&tag=fixedd-20).
+This interface board will allow you to connect your Raspberry Pi (rev 2.0, at least) to a [SainSmart 8-Channel 5V Relay Module](http://www.amazon.com/gp/product/B0057OC5WK/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0057OC5WK&linkCode=as2&tag=fixedd-20) or a [Sainsmart 4-Channel 5V Relay Module](http://www.sainsmart.com/4-channel-5v-relay-module-for-pic-arm-avr-dsp-arduino-msp430-ttl-logic.html).
 
 ## Parts List
+### [SainSmart 8-Channel 5V Relay Module](http://www.amazon.com/gp/product/B0057OC5WK/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0057OC5WK&linkCode=as2&tag=fixedd-20)
 
 | Quantity | Part                             | Notes |
 | :------: | -------------------------------- | ----- |
@@ -15,6 +16,17 @@ This interface board will allow you to connect your Raspberry Pi (rev 2.0, at le
 | 1        | 3 inch jumper wire               |       |
 | 1        | 26 pin header (2x13)             |       |
 | 1        | 10 pin header (1x10)             |       |
+
+### [Sainsmart 4-Channel 5V Relay Module](http://www.sainsmart.com/4-channel-5v-relay-module-for-pic-arm-avr-dsp-arduino-msp430-ttl-logic.html)
+| Quantity | Part                             | Notes |
+| :------: | -------------------------------- | ----- |
+| 4       | 12kΩ ¼ Watt Resistors            |       |
+| 4       | 10kΩ ¼ Watt Resistors            |       |
+| 4       | 2N3904 Transistors               | I used [these](http://www.mouser.com/Search/ProductDetail.aspx?R=2N3904TAvirtualkey51210000virtualkey512-2N3904TA). |
+| 1        | 2 inch x 2 inch single-sided PCB | I cut [this](http://www.amazon.com/gp/product/B000P7ALZC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000P7ALZC&linkCode=as2&tag=fixedd-20) down. |
+| 1        | 3 inch jumper wire               |       |
+| 1        | 26 pin header (2x13)             |       |
+| 1        | 6 pin header (1x6)             |       |
 
 ## Explanation
 
@@ -32,6 +44,7 @@ The Sainsmart Relay Module has opto-isolation on the input pins. To maintain thi
 * ```gerber_files``` - @lazylester provided these [Gerber format](http://en.wikipedia.org/wiki/Gerber_format) files so it will be easy to have boards manufactured.
 * ```images``` - Images of my board and the files I printed to do the toner transfer.
 * ```test_scripts``` - Some python scripts to test the operation of the board.
+* (the files with the '_4' are for the Sainsmart 4-Channel 5V Relay Module)
 
 ## Video
 
